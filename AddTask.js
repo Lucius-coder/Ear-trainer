@@ -18,7 +18,7 @@ export default function AddTask() {
       <View style={styles.flexCol}>
         <Text style={styles.textLarge}>Set how long the task would start</Text></View>
       <View style={styles.flexCol}>
-        <MyDate display="spinner" mode="time" taskName="set task duration" />
+        <MyDate display="default" mode="time" taskName="set task duration" />
       </View>
       <View style={styles.flexCol}>
         <View >
