@@ -17,7 +17,7 @@ export default function Header(){
 }
 let header=StyleSheet.create({
   text:{
-    fontSize:35,
+    fontSize:25,
     marginLeft:15,
     flexGrow:4,
     color:"dodgerblue",

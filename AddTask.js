@@ -30,7 +30,7 @@ export default function AddTask() {
       { /*  <FlatList data={days}/> */}
 </View>
 <View>
-<Timer date={date}/>
+<Text>{date.toLocaleTimeString()}</Text>
 </View>
 <View>
     <Text style={styles.textLarge}>Set the name of task</Text>
